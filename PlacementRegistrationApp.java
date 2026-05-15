@@ -94,7 +94,7 @@ public class PlacementRegistrationApp extends JFrame {
     private JPanel createMainArea() {
          JPanel mainArea = new JPanel(new BorderLayout()) {
     ImageIcon bgIcon = new ImageIcon("images/image.jpg");
-System.out.println(bgIcon.getIconWidth());
+
 
 private Image backgroundImage = bgIcon.getImage();
     @Override
